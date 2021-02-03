@@ -1,0 +1,7 @@
+<h2>done</h2>
+<ul>
+    <li *ngFor="let item of donelist">
+        <button (click)="moveDoneTaskToTodoList(item)">Not Done</button> - 
+        <button (click)="deleteDoneTask(item)">Delete</button> - 
+        {{item}}</li>
+</ul>

@@ -1,0 +1,5 @@
+<h2>todo</h2>
+<ul>
+    <li *ngFor="let item of tasklist">
+        <button (click)="moveTaskToDoneList(item)">Done</button> - {{item}}</li>
+</ul>

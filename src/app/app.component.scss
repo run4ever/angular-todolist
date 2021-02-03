@@ -1,0 +1,17 @@
+.container{
+    width: 700px;
+    margin: 0 auto;
+}
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.col-50{
+    width:49%;
+}
+
+code{
+    display: block;
+    background: blue;
+    color:white;
+}
